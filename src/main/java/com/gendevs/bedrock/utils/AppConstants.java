@@ -16,8 +16,6 @@
 
 package com.gendevs.bedrock.utils;
 
-import com.gendevs.bedrock.service.storage.StorageConstants;
-
 public class AppConstants {
 	public static int TIME_OUT_DAYS = 1; 
 	public static int INVITE_USERS_TIME_OUT_DAYS = 30;
@@ -41,7 +39,7 @@ public class AppConstants {
 	public static String API_KEY_SWAGGER_ADMIN = "admin_api_key";
 	public static String API_KEY_SWAGGER_USER = "user_api_key";
 	
-	public static String URL_TO_SLICE = "https://s3-us-west-2.amazonaws.com/"+ StorageConstants.BUCKET_NAME;
+	//public static String URL_TO_SLICE = "https://s3-us-west-2.amazonaws.com/"+ StorageConstants.BUCKET_NAME;
 	
 	public static String APP_EMAILID = "anyemail@gmail.com";
 	public static int SHORTEN_SIZE = 150;
